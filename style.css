@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+header nav ul  {
+    list-style: none;
+    padding: 0;
+}
+header nav ul li {
+    display: inline;
+    margin: 0 10px; 
+}
+.hero {
+    background: url(´hero.jpg´);
+    color: white;
+    padding: 100px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+.gallery {
+    padding: 20px;
+    text-align: center;
+}
+.perritos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.perrito {
+    width: 100%;
+    border-radius: 5px;
+}
+.perrito h3 {
+    margin: 10px 0;
+}
+.perrito .btn {
+    background: ##4CAF50;
+    color: white;
+    padding: 5px 10px;
+    
+}
